@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;600;700;800&display=swap');
+
+body {
+    font-family: 'Mulish', sans-serif;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+/* Navbar Section Styling */
+.navbar {
+    width: 80%;
+    margin: 50px 130px;
+}
+
+.icon {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.icon h3 {
+    color: #131318;
+    font-family: Mulish;
+    font-size: 2rem;
+    font-weight: 800;
+
+}
+
+span {
+    color: #FF5400;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu a {
+    text-decoration: none;
+    color: var(--Dark-02, #424247);
+    font-size: 1.1rem;
+    font-weight: 400;
+    margin-right: 20px;
+    padding-left: 30px;
+    
+}
+
+#hamburger-icon{
+    margin: auto 0;
+    display: none;
+    cursor: pointer;
+}
+
+#hamburger-icon div{
+    width: 35px;
+    height: 3px;
+    background-color: orangered;
+    margin: 6px 0;
+    transition: 0.5s;
+}
+
+.open .bar1{
+    -webkit-transform: rotate(-45deg) translate(-6px,6px);
+
+    transform: rotate(-45deg) translate(-6px,6px);
+}
+
+.open .bar2{
+    opacity: 0;
+}
+
+.open .bar3{
+    -webkit-transform: rotate(45deg) translate(-6px,-8px);
+
+    transform: rotate(45deg) translate(-6px,-8px);
+}
+
+.open .mobile-menu{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.mobile-menu{
+    display: none;
+    position: absolute;
+    top: 50px;
+    left: 0;
+    height: calc(100vh - 50px);
+    width: 100%;
+}
