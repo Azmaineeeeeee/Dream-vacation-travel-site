@@ -30,28 +30,44 @@ body {
         color: #FF5400;
     }
 
-    .explore-travel{
+    .explore-travel {
         width: 80%;
         margin: 20px auto;
         background-image: url('../Images/Group\ 13\ \(1\)\ \(1\).png');
         background-position: center;
-        
+
     }
 
-    .explore-travel-section{
+    .explore-travel-section {
         padding-top: 10px;
     }
 
-    .explore-travel-heading{
+    .explore-travel-heading {
         font-size: 1rem;
     }
-    .explore-travel-paragraph{
+
+    .explore-travel-paragraph {
         font-size: .8rem;
     }
-    .explore-travel-input{
+
+    .explore-travel-input {
         flex-direction: column;
         margin-top: 20px;
         padding: 20px;
+    }
+
+    .popular-tour{
+        width: 80%;
+        margin: 20px auto;
+        flex-direction: column;
+    }
+
+    .popular-tour-text,.popular-tour-image {
+        width: 100%;
+    }
+
+    .popular-tour-image{
+        margin-top: 20px;
     }
 }
 
@@ -71,7 +87,7 @@ body {
     }
 
     .icon h3 {
-        
+
         font-size: 2rem;
     }
 
@@ -79,27 +95,49 @@ body {
         color: #FF5400;
     }
 
-    .explore-travel{
+    .explore-travel {
         width: 80%;
         margin: 20px auto;
         background-image: url('../Images/Group\ 13\ \(1\)\ \(1\).png');
         background-position: center;
-        
+
     }
 
-    .explore-travel-section{
+    .explore-travel-section {
         padding-top: 10px;
     }
 
-    .explore-travel-heading{
+    .explore-travel-heading {
         font-size: 1rem;
     }
-    .explore-travel-paragraph{
+
+    .explore-travel-paragraph {
         font-size: .8rem;
     }
-    .explore-travel-input{
+
+    .explore-travel-input {
         flex-direction: column;
         margin-top: 20px;
         padding: 20px;
+    }
+
+    .popular-tour{
+        width: 80%;
+        margin: 20px auto;
+        flex-direction: column;
+    }
+
+    .popular-tour{
+        width: 80%;
+        margin: 20px auto;
+        flex-direction: column;
+    }
+
+    .popular-tour-text,.popular-tour-image {
+        width: 100%;
+    }
+
+    .popular-tour-image{
+        margin-top: 20px;
     }
 }

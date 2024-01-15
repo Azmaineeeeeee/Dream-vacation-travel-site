@@ -10,6 +10,19 @@ body {
     box-sizing: border-box;
 }
 
+/* Shared Styles */
+
+.primary-button{
+    color: #FFF;
+text-align: center;
+font-size: 1rem;
+font-weight: 800;
+border-radius: 5px;
+background: #FF5400;
+padding: 10px 30px;
+border: none;
+}
+
 /* Navbar Section Styling */
 .navbar {
     width: 80%;
@@ -113,20 +126,20 @@ span {
 
 }
 
-.explore-travel-heading{
+.explore-travel-heading {
     color: #FFF;
-font-size: 3rem;
-font-weight: 800;
-margin-bottom: 10px;
+    font-size: 3rem;
+    font-weight: 800;
+    margin-bottom: 10px;
 
 }
 
-.explore-travel-paragraph{
+.explore-travel-paragraph {
     color: #FFF;
-text-align: center;
-font-size: 1rem;
-font-weight: 400;
-margin-bottom: 10px;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 400;
+    margin-bottom: 10px;
 }
 
 .explore-input {
@@ -175,4 +188,44 @@ margin-bottom: 10px;
     font-weight: 400;
     padding-left: 5px;
 
+}
+
+.popular-tour {
+    width: 80%;
+    margin: 50px 130px;
+    display: flex;
+    justify-content: space-between;
+    height: 500px;
+}
+
+.popular-tour-text,.popular-tour-image {
+    width: 48%;
+}
+
+.popular-tour-heading {
+    color: #131318;
+    font-size: 2.2rem;
+    font-weight: 800;
+    margin-bottom: 20px;
+
+}
+
+.popular-tour-paragraph {
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 1rem;
+    font-weight: 400;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.tour-points li {
+    padding: 10px 10px;
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.popular-tour-image img{
+    height: 100%;
+    width: 100%;
 }
