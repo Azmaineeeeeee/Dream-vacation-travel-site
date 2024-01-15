@@ -1,15 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;600;700;800&display=swap');
-body{
+
+body {
     font-family: 'Mulish', sans-serif;
 }
 
 @media screen and (max-width: 600px) {
-    .menu a{
+    .menu a {
         display: none;
     }
 
-    #hamburger-icon{
+    #hamburger-icon {
         display: block;
+        margin-right: 5px;
     }
 
     .navbar {
@@ -18,24 +20,48 @@ body{
     }
 
     .icon h3 {
-        
+
         font-size: 1rem;
-        
-    
+
+
     }
-    
+
     span {
         color: #FF5400;
+    }
+
+    .explore-travel{
+        width: 80%;
+        margin: 20px auto;
+        background-image: url('../Images/Group\ 13\ \(1\)\ \(1\).png');
+        background-position: center;
+        
+    }
+
+    .explore-travel-section{
+        padding-top: 10px;
+    }
+
+    .explore-travel-heading{
+        font-size: 1rem;
+    }
+    .explore-travel-paragraph{
+        font-size: .8rem;
+    }
+    .explore-travel-input{
+        flex-direction: column;
+        margin-top: 20px;
+        padding: 20px;
     }
 }
 
 
 @media screen and (min-width: 600px) and (max-width:992px) {
-    .menu a{
+    .menu a {
         display: none;
     }
 
-    #hamburger-icon{
+    #hamburger-icon {
         display: block;
     }
 
@@ -47,11 +73,33 @@ body{
     .icon h3 {
         
         font-size: 2rem;
-        
-    
     }
-    
+
     span {
         color: #FF5400;
+    }
+
+    .explore-travel{
+        width: 80%;
+        margin: 20px auto;
+        background-image: url('../Images/Group\ 13\ \(1\)\ \(1\).png');
+        background-position: center;
+        
+    }
+
+    .explore-travel-section{
+        padding-top: 10px;
+    }
+
+    .explore-travel-heading{
+        font-size: 1rem;
+    }
+    .explore-travel-paragraph{
+        font-size: .8rem;
+    }
+    .explore-travel-input{
+        flex-direction: column;
+        margin-top: 20px;
+        padding: 20px;
     }
 }

@@ -47,16 +47,16 @@ span {
     font-weight: 400;
     margin-right: 20px;
     padding-left: 30px;
-    
+
 }
 
-#hamburger-icon{
+#hamburger-icon {
     margin: auto 0;
     display: none;
     cursor: pointer;
 }
 
-#hamburger-icon div{
+#hamburger-icon div {
     width: 35px;
     height: 3px;
     background-color: orangered;
@@ -64,34 +64,115 @@ span {
     transition: 0.5s;
 }
 
-.open .bar1{
-    -webkit-transform: rotate(-45deg) translate(-6px,6px);
+.open .bar1 {
+    -webkit-transform: rotate(-45deg) translate(-6px, 6px);
 
-    transform: rotate(-45deg) translate(-6px,6px);
+    transform: rotate(-45deg) translate(-6px, 6px);
 }
 
-.open .bar2{
+.open .bar2 {
     opacity: 0;
 }
 
-.open .bar3{
-    -webkit-transform: rotate(45deg) translate(-6px,-8px);
+.open .bar3 {
+    -webkit-transform: rotate(45deg) translate(-6px, -8px);
 
-    transform: rotate(45deg) translate(-6px,-8px);
+    transform: rotate(45deg) translate(-6px, -8px);
 }
 
-.open .mobile-menu{
+.open .mobile-menu {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: flex-start;
 }
 
-.mobile-menu{
+.mobile-menu {
     display: none;
     position: absolute;
     top: 50px;
     left: 0;
     height: calc(100vh - 50px);
     width: 100%;
+}
+
+/* Explore Travel Section */
+
+.explore-travel {
+    width: 80%;
+    height: 500px;
+    margin: 50px 130px;
+    background-image: url('../Images/Group\ 13\ \(1\)\ \(1\).png');
+    background-size: cover;
+    object-fit: cover;
+}
+
+.explore-travel-section {
+    text-align: center;
+    padding-top: 100px;
+
+}
+
+.explore-travel-heading{
+    color: #FFF;
+font-size: 3rem;
+font-weight: 800;
+margin-bottom: 10px;
+
+}
+
+.explore-travel-paragraph{
+    color: #FFF;
+text-align: center;
+font-size: 1rem;
+font-weight: 400;
+margin-bottom: 10px;
+}
+
+.explore-input {
+    width: 170px;
+    height: 50px;
+
+    border-radius: 6px;
+    background: #FFF;
+    border: none;
+
+}
+
+.explore-search {
+    width: 170px;
+    height: 50px;
+
+    border-radius: 6px;
+    background: #FF5400;
+    border: none;
+}
+
+.explore-travel-input {
+    display: flex;
+
+    justify-content: center;
+    display: inline-flex;
+    padding: 16px;
+    margin-top: 50px;
+    gap: 20px;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.30)
+}
+
+.explore-search::placeholder {
+    color: #FFF;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 700;
+
+}
+
+.explore-input::placeholder {
+    color: rgba(19, 19, 24, 0.50);
+    font-family: Mulish;
+    font-size: 1rem;
+    font-weight: 400;
+    padding-left: 5px;
+
 }
