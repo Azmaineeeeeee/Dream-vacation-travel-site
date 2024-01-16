@@ -127,6 +127,40 @@ body {
         width: 85vw;
     }
 
+    .newsletter{
+        margin: 20px auto;
+    }
+
+    .newsletter-box{
+        grid-column: 1/span 12;
+    }
+    .newsletter-image{
+        grid-column: 1/span 12;  
+    }
+
+     .newsletter-input{
+        height: 100%;
+        width: 100%;
+    } 
+
+    .newsletter-input input,.secondary-button {
+        width: 220px;
+        height: 30px;
+
+    }
+
+    .newsletter-box hr{
+        width: 220px;
+    }
+
+    .image-text{
+        width: 200px;
+        height: 100px;
+        right: 10px;
+        transform: rotate(-30deg);
+        
+    }
+
 
 
 
@@ -249,6 +283,40 @@ body {
     .best-price-guarantee{
         grid-column: 1/span 8;
         width: 85vw;
+    }
+
+    .newsletter{
+        margin: 20px auto;
+    }
+
+    .newsletter-box{
+        grid-column: 1/span 12;
+    }
+    .newsletter-image{
+        grid-column: 1/span 12;  
+    }
+
+     .newsletter-input{
+        height: 100%;
+        width: 100%;
+    } 
+
+    .newsletter-input input,.secondary-button {
+        width: 300px;
+        height: 50px;
+
+    }
+
+    .newsletter-box hr{
+        width: 300px;
+    }
+
+    .image-text{
+        width: 200px;
+        height: 100px;
+        right: 10px;
+        transform: rotate(-30deg);
+        
     }
 
 

@@ -204,7 +204,8 @@ span {
 }
 
 .popular-tour-heading,
-.destination-title, .why-choose-us-title{
+.destination-title,
+.why-choose-us-title {
     color: #131318;
     font-size: 2.2rem;
     font-weight: 800;
@@ -213,7 +214,8 @@ span {
 }
 
 .popular-tour-paragraph,
-.destination-paragraph,.why-choose-us-paragraph {
+.destination-paragraph,
+.why-choose-us-paragraph {
     color: rgba(19, 19, 24, 0.70);
     font-size: 1rem;
     font-weight: 400;
@@ -251,7 +253,8 @@ span {
     height: 100%;
 }
 
-.destination-heading,.why-choose-us-heading {
+.destination-heading,
+.why-choose-us-heading {
     text-align: center;
 }
 
@@ -319,70 +322,162 @@ span {
 
 /* Choose Us Section */
 
-.choose-us{
+.choose-us {
     width: 80%;
     margin: 50px 130px;
 }
 
 
 
-.choose-us-title{
+.choose-us-title,
+.newsletter-heading {
     color: #131318;
     font-size: 1.5rem;
     font-weight: 800;
     margin-top: 20px;
 }
 
-.choose-us-paragraph{
+.choose-us-paragraph,
+.newsletter-paragraph {
     color: #5A5A5D;
-font-size: 1rem;
-font-weight: 400;
-margin-top: 10px;
+    font-size: 1rem;
+    font-weight: 400;
+    margin-top: 10px;
 }
 
-.handpicked-hotels{
-/* width: 573px;
-height: 284px; */
-
-border-radius: 16px;
-border: 1px solid rgba(251, 181, 99, 0.20);
-padding: 30px;
-background: rgba(251, 181, 99, 0.05);
-grid-column: 1/span 6;
-margin-right: 20px;
-
-}
-
-.world-class-service{
-/* width: 573px;
-height: 284px;  */
-flex-shrink: 0;
-border-radius: 16px;
-border: 1px solid rgba(41, 206, 246, 0.20);
-padding: 30px;
-background: rgba(41, 206, 246, 0.05);
-grid-column: 7/span 6;
-}
-
-.best-price-guarantee{
+.handpicked-hotels {
     /* width: 573px;
 height: 284px; */
 
-border-radius: 16px;
-border: 1px solid rgba(233, 68, 68, 0.20);
-padding: 30px;
-background: rgba(233, 68, 68, 0.05);
-grid-column: 4/ span 6;
-margin-top: 20px;
+    border-radius: 16px;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    padding: 30px;
+    background: rgba(251, 181, 99, 0.05);
+    grid-column: 1/span 6;
+    margin-right: 20px;
+
 }
 
- .choose-us-grid{
+.world-class-service {
+    /* width: 573px;
+height: 284px;  */
+    flex-shrink: 0;
+    border-radius: 16px;
+    border: 1px solid rgba(41, 206, 246, 0.20);
+    padding: 30px;
+    background: rgba(41, 206, 246, 0.05);
+    grid-column: 7/span 6;
+}
+
+.best-price-guarantee {
+    /* width: 573px;
+height: 284px; */
+
+    border-radius: 16px;
+    border: 1px solid rgba(233, 68, 68, 0.20);
+    padding: 30px;
+    background: rgba(233, 68, 68, 0.05);
+    grid-column: 4/ span 6;
+    margin-top: 20px;
+}
+
+.choose-us-grid {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+}
+
+/* newsletter section starts here */
+
+.newsletter {
+    width: 80%;
+    margin: 50px 130px;
     display: grid;
     grid-template-columns: repeat(12,1fr);
-    grid-template-rows: repeat(2,1fr);
-} 
+    gap: 20px;
+}
+
+.newsletter-box hr {
+
+    width: 350px;
+    height: 1px;
+    margin-top: 10px;
+}
+
+.newsletter-box {
+    
+    
+    height: 350px;
+    border-radius: 16px;
+    border: 1px solid #FF5400;
+    padding: 40px;
+    grid-column: 1/span 5;
+}
+.newsletter-image{
+    grid-column: 6/ span 7;
+    position: relative;
+}
 
 
 
+.newsletter-image img{
+    height: 350px;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 16px;
+}
+.secondary-button {
+    width: 350px;
+    height: 40px;
+    border-radius: 6px;
+    background: #FF5400;
+    margin-top: 20px;
+    border: none;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 600;
 
+}
 
+.newsletter-input input::placeholder {
+    color: rgba(19, 19, 24, 0.30);
+    font-size: 16px;
+    font-weight: 400;
+    padding-left: 10px;
+}
+
+.newsletter-input input {
+    width: 350px;
+    height: 40px;
+    border-radius: 6px;
+    background: rgba(19, 19, 24, 0.05);
+    border: none;
+    margin-top: 10px;
+}
+
+.upper-text{
+    color: #FFF;
+font-size: 16px;
+font-weight: 400;
+text-align: center;
+}
+.lower-text{
+    color: #FFF;
+font-size: 24px;
+font-weight: 800;
+text-align: center;
+
+}
+.image-text{
+    border-radius: 16px;
+background: #FF5400;
+width: 300px;
+height: 100px;
+padding-top: 20px;
+position: absolute;
+right: 5px;
+bottom:50px;
+
+transform: rotate(-19.628deg);
+
+}
