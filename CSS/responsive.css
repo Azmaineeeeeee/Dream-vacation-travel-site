@@ -80,11 +80,11 @@ body {
         margin: 20px auto;
     }
 
-    .destination-title {
+    .destination-title,.why-choose-us-title {
         font-size: 1.5rem;
     }
 
-    .destination-paragraph {
+    .destination-paragraph,.why-choose-us-paragraph {
         font-size: .8rem;
     }
 
@@ -101,10 +101,31 @@ body {
 
     .destination-image img {
         width: 250px;
-        height: 150px;
+        height: 150px; 
 
     }
 
+    .choose-us{
+        width: 80%;
+        margin: 20px auto;
+    }
+
+    .handpicked-hotels{
+        grid-column: 1/span 8;
+        width: 85vw;
+
+    }
+
+    .world-class-service{
+        grid-column: 1/span 8;
+        margin-top: 10px;
+        width: 85vw;
+    }
+
+    .best-price-guarantee{
+        grid-column: 1/span 8;
+        width: 85vw;
+    }
 
 
 
@@ -207,6 +228,29 @@ body {
     .bandarban {
         grid-column: 1/span 12;
     }
+
+    .choose-us{
+        width: 80%;
+        margin: 20px auto;
+    }
+
+    .handpicked-hotels{
+        grid-column: 1/span 8;
+        width: 85vw;
+
+    }
+
+    .world-class-service{
+        grid-column: 1/span 8;
+        margin-top: 10px;
+        width: 85vw;
+    }
+
+    .best-price-guarantee{
+        grid-column: 1/span 8;
+        width: 85vw;
+    }
+
 
 
 
