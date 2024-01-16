@@ -12,15 +12,15 @@ body {
 
 /* Shared Styles */
 
-.primary-button{
+.primary-button {
     color: #FFF;
-text-align: center;
-font-size: 1rem;
-font-weight: 800;
-border-radius: 5px;
-background: #FF5400;
-padding: 10px 30px;
-border: none;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 800;
+    border-radius: 5px;
+    background: #FF5400;
+    padding: 10px 30px;
+    border: none;
 }
 
 /* Navbar Section Styling */
@@ -198,11 +198,13 @@ span {
     height: 100%;
 }
 
-.popular-tour-text,.popular-tour-image {
+.popular-tour-text,
+.popular-tour-image {
     width: 48%;
 }
 
-.popular-tour-heading,.destination-title {
+.popular-tour-heading,
+.destination-title {
     color: #131318;
     font-size: 2.2rem;
     font-weight: 800;
@@ -210,7 +212,8 @@ span {
 
 }
 
-.popular-tour-paragraph, .destination-paragraph{
+.popular-tour-paragraph,
+.destination-paragraph {
     color: rgba(19, 19, 24, 0.70);
     font-size: 1rem;
     font-weight: 400;
@@ -225,74 +228,78 @@ span {
     font-weight: 400;
 }
 
-.popular-tour-image img{
+.popular-tour-image img {
     height: 500px;
     width: 100%;
 }
 
-.destination-image{
+.destination-image {
     display: grid;
-    grid-template-columns: repeat(12,1fr);
-    grid-template-rows: repeat(3,1fr);
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(3, 1fr);
 }
 
-.destination-image img{
+.destination-image img {
     width: 100%;
     object-fit: cover;
     border-radius: 15px;
 }
 
-.destination{
+.destination {
     width: 80%;
     margin: 50px 130px;
     height: 100%;
 }
 
-.destination-heading{
+.destination-heading {
     text-align: center;
 }
 
-.maldives{
+.maldives {
     grid-column: 1/span 6;
     margin-right: 20px;
     position: relative;
     overflow: hidden;
 }
 
-.indonesia{
-    grid-column: 7/span 6; 
+.indonesia {
+    grid-column: 7/span 6;
     position: relative;
     overflow: hidden;
 }
-.srilanka{
+
+.srilanka {
     grid-column: 1/span 3;
     margin-right: 20px;
     margin-top: 10px;
     position: relative;
     overflow: hidden;
 }
-.north-America{
+
+.north-America {
     grid-column: 4/span 6;
     margin-right: 20px;
     margin-top: 10px;
     position: relative;
     overflow: hidden;
 }
-.kashmir{
+
+.kashmir {
     grid-column: 10/span 3;
     margin-top: 10px;
     position: relative;
     overflow: hidden;
-    
+
 }
 
-.bangladesh{
+.bangladesh {
     grid-column: 1/span 5;
     margin-right: 20px;
     position: relative;
     overflow: hidden;
 }
-.bandarban{
+
+.bandarban {
     grid-column: 6/span 7;
     position: relative;
     overflow: hidden;
@@ -304,10 +311,8 @@ span {
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
-    color: #fff; 
-    font-size: 1.4rem; 
+    color: #fff;
+    font-size: 1.4rem;
     font-weight: bold;
-     padding: 10px;
-  }
-
-  
+    padding: 10px;
+}

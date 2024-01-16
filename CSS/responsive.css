@@ -56,49 +56,60 @@ body {
         padding: 20px;
     }
 
-    .popular-tour{
+    .popular-tour {
         width: 80%;
         margin: 20px auto;
         flex-direction: column;
     }
 
-    .popular-tour-text,.popular-tour-image {
+    .popular-tour-text,
+    .popular-tour-image {
         width: 100%;
     }
 
-    .popular-tour-image{
+    .popular-tour-image {
         margin-top: 20px;
     }
-    .popular-tour-image img{
+
+    .popular-tour-image img {
         height: 400px;
     }
-    .destination{
+
+    .destination {
         width: 80%;
         margin: 20px auto;
-}
+    }
 
-    .destination-title{
+    .destination-title {
         font-size: 1.5rem;
     }
-    .destination-paragraph{
+
+    .destination-paragraph {
         font-size: .8rem;
     }
-     .maldives,.indonesia,.srilanka,.north-America,.kashmir,.bangladesh,.bandarban{
-        grid-column: span 12;
-       padding-left: 80px;
-    } 
 
-    .destination-image img{
-        width: 250px;
-        height: 150px;
-        
+    .maldives,
+    .indonesia,
+    .srilanka,
+    .north-America,
+    .kashmir,
+    .bangladesh,
+    .bandarban {
+        grid-column: span 12;
+        padding-left: 20px;
     }
 
-    
-   
+    .destination-image img {
+        width: 250px;
+        height: 150px;
 
-    
-    
+    }
+
+
+
+
+
+
 }
 
 
@@ -151,43 +162,52 @@ body {
         padding: 20px;
     }
 
-    .popular-tour{
+    .popular-tour {
         width: 80%;
         margin: 20px auto;
         flex-direction: column;
     }
 
-    .popular-tour{
+    .popular-tour {
         width: 80%;
         margin: 20px auto;
         flex-direction: column;
     }
 
-    .popular-tour-text,.popular-tour-image {
+    .popular-tour-text,
+    .popular-tour-image {
         width: 100%;
     }
 
-    .popular-tour-image{
+    .popular-tour-image {
         margin-top: 20px;
     }
 
-    .destination{
+    .destination {
         width: 80%;
         margin: 20px auto;
-        
-        
+
+
     }
 
-    .destination-title{
+    .destination-title {
         font-size: 1.5rem;
     }
-    .destination-paragraph{
+
+    .destination-paragraph {
         font-size: .8rem;
     }
-     .maldives,.indonesia,.srilanka,.north-America,.kashmir,.bangladesh,.bandarban{
-        grid-column: 1/span 12;
-    } 
-    
 
-    
+    .maldives,
+    .indonesia,
+    .srilanka,
+    .north-America,
+    .kashmir,
+    .bangladesh,
+    .bandarban {
+        grid-column: 1/span 12;
+    }
+
+
+
 }
