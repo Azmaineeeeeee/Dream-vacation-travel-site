@@ -145,20 +145,32 @@ span {
 .explore-input {
     width: 170px;
     height: 50px;
-
     border-radius: 6px;
     background: #FFF;
     border: none;
+    position: relative;
 
+}
+
+.frame{
+    position: absolute;
+     margin-left: -30px;
+    margin-top: 10px;
 }
 
 .explore-search {
     width: 170px;
     height: 50px;
-
     border-radius: 6px;
     background: #FF5400;
     border: none;
+    position: relative;
+}
+
+.frame1{
+    position: absolute;
+     margin-left: -160px;
+    margin-top: 10px;
 }
 
 .explore-travel-input {
@@ -205,7 +217,7 @@ span {
 
 .popular-tour-heading,
 .destination-title,
-.why-choose-us-title{
+.why-choose-us-title {
     color: #131318;
     font-size: 2.2rem;
     font-weight: 800;
@@ -215,7 +227,8 @@ span {
 
 .popular-tour-paragraph,
 .destination-paragraph,
-.why-choose-us-paragraph,.footer-paragraph{
+.why-choose-us-paragraph,
+.footer-paragraph {
     color: rgba(19, 19, 24, 0.70);
     font-size: 1rem;
     font-weight: 400;
@@ -254,7 +267,7 @@ span {
 }
 
 .destination-heading,
-.why-choose-us-heading{
+.why-choose-us-heading {
     text-align: center;
 }
 
@@ -393,7 +406,7 @@ height: 284px; */
     width: 80%;
     margin: 50px 130px;
     display: grid;
-    grid-template-columns: repeat(12,1fr);
+    grid-template-columns: repeat(12, 1fr);
     gap: 20px;
 }
 
@@ -405,27 +418,29 @@ height: 284px; */
 }
 
 .newsletter-box {
-    
-    
+
+
     height: 350px;
     border-radius: 16px;
     border: 1px solid #FF5400;
     padding: 40px;
     grid-column: 1/span 5;
 }
-.newsletter-image{
+
+.newsletter-image {
     grid-column: 6/ span 7;
     position: relative;
 }
 
 
 
-.newsletter-image img{
+.newsletter-image img {
     height: 350px;
     width: 100%;
     object-fit: cover;
     border-radius: 16px;
 }
+
 .secondary-button {
     width: 350px;
     height: 40px;
@@ -455,36 +470,38 @@ height: 284px; */
     margin-top: 10px;
 }
 
-.upper-text{
+.upper-text {
     color: #FFF;
-font-size: 16px;
-font-weight: 400;
-text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
 }
-.lower-text{
+
+.lower-text {
     color: #FFF;
-font-size: 24px;
-font-weight: 800;
-text-align: center;
+    font-size: 24px;
+    font-weight: 800;
+    text-align: center;
 
 }
-.image-text{
+
+.image-text {
     border-radius: 16px;
-background: #FF5400;
-width: 300px;
-height: 100px;
-padding-top: 20px;
-position: absolute;
-right: 5px;
-bottom:50px;
+    background: #FF5400;
+    width: 300px;
+    height: 100px;
+    padding-top: 20px;
+    position: absolute;
+    right: 5px;
+    bottom: 50px;
 
-transform: rotate(-19.628deg);
+    transform: rotate(-19.628deg);
 
 }
 
 /* choose your reservation section */
 
-.choose-your-reservation{
+.choose-your-reservation {
     width: 80%;
     margin: 50px 130px;
     background-image: url('../Images/desktop-wallpaper-dark-mountain-dark-mountains.jpg');
@@ -493,80 +510,80 @@ transform: rotate(-19.628deg);
     object-fit: cover;
 }
 
-.reservation-form{
+.reservation-form {
     display: grid;
-    grid-template-columns: repeat(12,1fr);
-    grid-template-rows: repeat(4,1fr);
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(4, 1fr);
 }
 
-.zip{
+.zip {
     grid-column: 1/span 12;
     border-radius: 15px;
     border: none;
     margin: 10px 20px;
     padding: 20px;
-    background: rgba(255,255,255,0.8);
+    background: rgba(255, 255, 255, 0.8);
 }
 
-.check-in{
+.check-in {
     grid-column: 1/span 6;
     border-radius: 15px;
     border: none;
     margin: 10px 20px;
     padding: 20px;
-    background: rgba(255,255,255,.8);
+    background: rgba(255, 255, 255, .8);
 }
 
-.place{
+.place {
     grid-column: 7/span 6;
     border-radius: 15px;
     border: none;
     margin: 10px 20px;
     padding: 20px;
-    background: rgba(255,255,255,0.8);
+    background: rgba(255, 255, 255, 0.8);
 }
 
-.check-out{
+.check-out {
     grid-column: 1/span 4;
     border-radius: 15px;
     border: none;
     margin: 10px 20px;
     padding: 20px;
-    background: rgba(255,255,255,0.8);
+    background: rgba(255, 255, 255, 0.8);
 }
 
-.email{
+.email {
     grid-column: 5/span 4;
     border-radius: 15px;
     border: none;
     margin: 10px 20px;
     padding: 20px;
-    background: rgba(255,255,255,0.8);
+    background: rgba(255, 255, 255, 0.8);
 }
 
-.phone{
+.phone {
     grid-column: 9/span 4;
     border-radius: 15px;
     border: none;
     margin: 10px 20px;
     padding: 20px;
-    background: rgba(255,255,255,0.8);
+    background: rgba(255, 255, 255, 0.8);
 }
 
-.form-button{
+.form-button {
     grid-column: 1/span 12;
     border-radius: 15px;
     border: none;
     margin: 10px 20px;
     padding: 20px;
     background: #FF5400;
-    
-    
+
+
     color: #FFF;
     font-size: 20px;
     font-weight: 600;
-   
-    
+
+
 }
 
 .reservation-heading {
@@ -578,29 +595,33 @@ transform: rotate(-19.628deg);
     padding-top: 10px;
 }
 
-.footer{
+.footer h3 {
+
+    margin-left: 10px;
+}
+
+.footer {
     background: rgba(19, 19, 24, 0.05);
-   
-}
-
-
-
-.footer nav{
-    padding: 50px 600px 5px;
-}
-
-.footer-end{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     text-align: center;
+    padding: 20px;
 }
 
-.footer-end{
-    border-bottom: 1px solid rgb(100, 98, 98);
-    margin: 2px 300px;
-    
+.footer-icon {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
 }
 
-.end{
-    text-align: center;
-    padding-top: 50px;
-    padding-bottom: 20px;
+.end {
+    color: #131318;
+    font-size: 1rem;
+    font-weight: 300;
+    margin: 50px auto;
+    border-top: 1px solid #ccc;
+    padding-top: 20px;
+    width: 50%;
 }
