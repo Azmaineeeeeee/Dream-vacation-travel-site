@@ -205,7 +205,7 @@ span {
 
 .popular-tour-heading,
 .destination-title,
-.why-choose-us-title {
+.why-choose-us-title{
     color: #131318;
     font-size: 2.2rem;
     font-weight: 800;
@@ -254,7 +254,7 @@ span {
 }
 
 .destination-heading,
-.why-choose-us-heading {
+.why-choose-us-heading{
     text-align: center;
 }
 
@@ -480,4 +480,100 @@ bottom:50px;
 
 transform: rotate(-19.628deg);
 
+}
+
+/* choose your reservation section */
+
+.choose-your-reservation{
+    width: 80%;
+    margin: 50px 130px;
+    background-image: url('../Images/desktop-wallpaper-dark-mountain-dark-mountains.jpg');
+    background-size: cover;
+    background-position: center;
+    object-fit: cover;
+}
+
+.reservation-form{
+    display: grid;
+    grid-template-columns: repeat(12,1fr);
+    grid-template-rows: repeat(4,1fr);
+}
+
+.zip{
+    grid-column: 1/span 12;
+    border-radius: 15px;
+    border: none;
+    margin: 10px 20px;
+    padding: 20px;
+    background: rgba(255,255,255,0.8);
+}
+
+.check-in{
+    grid-column: 1/span 6;
+    border-radius: 15px;
+    border: none;
+    margin: 10px 20px;
+    padding: 20px;
+    background: rgba(255,255,255,.8);
+}
+
+.place{
+    grid-column: 7/span 6;
+    border-radius: 15px;
+    border: none;
+    margin: 10px 20px;
+    padding: 20px;
+    background: rgba(255,255,255,0.8);
+}
+
+.check-out{
+    grid-column: 1/span 4;
+    border-radius: 15px;
+    border: none;
+    margin: 10px 20px;
+    padding: 20px;
+    background: rgba(255,255,255,0.8);
+}
+
+.email{
+    grid-column: 5/span 4;
+    border-radius: 15px;
+    border: none;
+    margin: 10px 20px;
+    padding: 20px;
+    background: rgba(255,255,255,0.8);
+}
+
+.phone{
+    grid-column: 9/span 4;
+    border-radius: 15px;
+    border: none;
+    margin: 10px 20px;
+    padding: 20px;
+    background: rgba(255,255,255,0.8);
+}
+
+.form-button{
+    grid-column: 1/span 12;
+    border-radius: 15px;
+    border: none;
+    margin: 10px 20px;
+    padding: 20px;
+    background: #FF5400;
+    
+    
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 600;
+   
+    
+}
+
+.reservation-heading {
+    color: #FFF;
+    font-size: 2.2rem;
+    font-weight: 800;
+    margin-bottom: 20px;
+    text-align: center;
+    padding-top: 10px;
 }

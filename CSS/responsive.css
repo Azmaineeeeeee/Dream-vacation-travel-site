@@ -161,6 +161,20 @@ body {
         
     }
 
+    /* reservation-form */
+
+    .reservation-heading{
+        font-size: 1.5rem;
+    }
+
+    .choose-your-reservation{
+        margin: 20px auto;
+    }
+
+    .check-in,.place,.check-out,.email,.phone{
+        grid-column: 1/span 12;
+    }
+
 
 
 
@@ -317,6 +331,18 @@ body {
         right: 10px;
         transform: rotate(-30deg);
         
+    }
+
+    .reservation-heading{
+        font-size: 2rem;
+    }
+
+    .choose-your-reservation{
+        margin: 20px auto;
+    }
+
+    .check-in,.place,.check-out,.email,.phone{
+        grid-column: 1/span 12;
     }
 
 
