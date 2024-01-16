@@ -69,6 +69,36 @@ body {
     .popular-tour-image{
         margin-top: 20px;
     }
+    .popular-tour-image img{
+        height: 400px;
+    }
+    .destination{
+        width: 80%;
+        margin: 20px auto;
+}
+
+    .destination-title{
+        font-size: 1.5rem;
+    }
+    .destination-paragraph{
+        font-size: .8rem;
+    }
+     .maldives,.indonesia,.srilanka,.north-America,.kashmir,.bangladesh,.bandarban{
+        grid-column: span 12;
+       padding-left: 80px;
+    } 
+
+    .destination-image img{
+        width: 250px;
+        height: 150px;
+        
+    }
+
+    
+   
+
+    
+    
 }
 
 
@@ -140,4 +170,24 @@ body {
     .popular-tour-image{
         margin-top: 20px;
     }
+
+    .destination{
+        width: 80%;
+        margin: 20px auto;
+        
+        
+    }
+
+    .destination-title{
+        font-size: 1.5rem;
+    }
+    .destination-paragraph{
+        font-size: .8rem;
+    }
+     .maldives,.indonesia,.srilanka,.north-America,.kashmir,.bangladesh,.bandarban{
+        grid-column: 1/span 12;
+    } 
+    
+
+    
 }
