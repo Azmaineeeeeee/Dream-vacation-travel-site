@@ -215,7 +215,7 @@ span {
 
 .popular-tour-paragraph,
 .destination-paragraph,
-.why-choose-us-paragraph {
+.why-choose-us-paragraph,.footer-paragraph{
     color: rgba(19, 19, 24, 0.70);
     font-size: 1rem;
     font-weight: 400;
@@ -576,4 +576,31 @@ transform: rotate(-19.628deg);
     margin-bottom: 20px;
     text-align: center;
     padding-top: 10px;
+}
+
+.footer{
+    background: rgba(19, 19, 24, 0.05);
+   
+}
+
+
+
+.footer nav{
+    padding: 50px 600px 5px;
+}
+
+.footer-end{
+    text-align: center;
+}
+
+.footer-end{
+    border-bottom: 1px solid rgb(100, 98, 98);
+    margin: 2px 300px;
+    
+}
+
+.end{
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 20px;
 }
