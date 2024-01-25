@@ -72,7 +72,7 @@ span {
 #hamburger-icon div {
     width: 35px;
     height: 3px;
-    background-color: orangered;
+    background-color: gainsboro;
     margin: 6px 0;
     transition: 0.5s;
 }
